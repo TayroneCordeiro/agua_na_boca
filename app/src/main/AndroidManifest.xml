@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tayronecordeiro.agua_na_boca">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/name_cardapio" />
+        <activity
+            android:name=".SanduichesActivity"
+            android:label="@string/name_sanduiches" />
+        <activity
+            android:name=".BebidasActivity"
+            android:label="@string/name_bebidas" />
+        <activity
+            android:name=".AcrescentarActivity"
+            android:label="@string/name_acrescentar" />
+        <activity
+            android:name=".HambuerguerActivity"
+            android:label="@string/name_hamburguer"/>
+        <activity
+            android:name=".FrangoActivity"
+            android:label="@string/name_frango"/>
+        <activity
+            android:name=".LomboActivity"
+            android:label="@string/name_lommbo"/>
+        <activity
+            android:name=".PremiumActivity"
+            android:label="@string/name_premium"/>
+        <activity
+            android:name=".OutosActivity"
+            android:label="@string/name_outros">
+
+        </activity>
+    </application>
+
+</manifest>

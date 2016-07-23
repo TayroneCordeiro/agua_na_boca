@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tayronecordeiro.agua_na_boca.SanduichesActivity">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorbutton"
+        android:text="Premium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="clik_premium"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorbutton"
+        android:text="Hambúrguer bovino"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="click_hamburguer"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/colorbutton"
+        android:text="filé de frango"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="click_frango"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="210dp"
+        android:background="@color/colorbutton"
+        android:text="filé de lombo suíno"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="click_lombo"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/colorbutton"
+        android:text="outros"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="click_outros"/>
+
+
+</RelativeLayout>
+

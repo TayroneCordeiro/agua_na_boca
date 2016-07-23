@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lanchonete Água na Boca</string>
+    <string name="name_cardapio">Cardápio</string>
+    <string name="name_sanduiches">Sanduíches</string>
+    <string name="name_bebidas">Bebidas</string>
+    <string name="name_acrescentar">Acrescentar ou montar</string>
+    <string name="name_premium">Premium</string>
+    <string name="name_hamburguer">Hambúrguer bovino</string>
+    <string name="name_frango">Filé de frango</string>
+    <string name="name_lommbo">Filé de lombo suíno</string>
+    <string name="name_outros">Outros</string>
+
+</resources>
