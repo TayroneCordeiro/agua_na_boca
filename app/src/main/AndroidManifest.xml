@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tayronecordeiro.agua_na_boca">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,34 +22,48 @@
         </activity>
         <activity
             android:name=".CardapioActivity"
-            android:label="@string/name_cardapio" />
+            android:label="@string/name_cardapio"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".SanduichesActivity"
-            android:label="@string/name_sanduiches" />
+            android:label="@string/name_sanduiches"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".BebidasActivity"
-            android:label="@string/name_bebidas" />
+            android:label="@string/name_bebidas"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".AcrescentarActivity"
-            android:label="@string/name_acrescentar" />
+            android:label="@string/name_acrescentar"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".HambuerguerActivity"
-            android:label="@string/name_hamburguer" />
+            android:label="@string/name_hamburguer"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".FrangoActivity"
-            android:label="@string/name_frango" />
+            android:label="@string/name_frango"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".LomboActivity"
-            android:label="@string/name_lommbo" />
+            android:label="@string/name_lommbo"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".PremiumActivity"
-            android:label="@string/name_premium" />
+            android:label="@string/name_premium"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".OutosActivity"
-            android:label="@string/name_outros"/>
+            android:label="@string/name_outros"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".InicioActivity"
-            android:label="@string/name_inicio"/>
+            android:label="@string/name_inicio"
+            android:theme="@style/inicio" />
+        <activity
+            android:name=".TelefoneActivity"
+            android:label="@string/name_telefones"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

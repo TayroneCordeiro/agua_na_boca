@@ -1,33 +1,39 @@
 package com.example.tayronecordeiro.agua_na_boca;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
-public class CardapioActivity extends AppCompatActivity {
+public class TelefoneActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cardapio);
+        setContentView(R.layout.activity_telefone);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        findViewById(R.id.button_telefone1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialContactPhone("+556235291399");
+            }
+        });
+        findViewById(R.id.button_telefone2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialContactPhone("+5562994661228");
+            }
+        });
     }
-
-     public void click_sanduiches (View view) {
-        Intent  click_sanduiches = new Intent(CardapioActivity.this, SanduichesActivity.class);
-        startActivity(click_sanduiches);
-    }
-
-    public void click_bebidas (View view) {
-        Intent  click_bebidas = new Intent(CardapioActivity.this, BebidasActivity.class);
-        startActivity(click_bebidas);
-    }
-
-    public void click_acrescentar (View view) {
-        Intent  click_acrescentar = new Intent(CardapioActivity.this, AcrescentarActivity.class);
-        startActivity(click_acrescentar);
+    private void dialContactPhone(final String phoneNumber) {
+        startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phoneNumber, null)));
     }
 
 
@@ -48,6 +54,4 @@ public class CardapioActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
-
 }

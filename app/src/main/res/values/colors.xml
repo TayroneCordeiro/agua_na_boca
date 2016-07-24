@@ -5,6 +5,8 @@
     <color name="colorAccent">#FFC107</color>
     <color name="colorbutton">#FFC107</color>
 
+    <color name="colorPrimaryDarkk">#b4b4b4</color>
+
     <color name="button_cardapio">#ffbd07</color>
     <color name="button_facebook">#3688f4</color>
     <color name="button_telefone">#39a327</color>

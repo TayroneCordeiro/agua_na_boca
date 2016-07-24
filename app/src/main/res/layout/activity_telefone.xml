@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#e8e8e8">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="#ffffff">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="9dp"
+                    android:background="@android:drawable/stat_sys_phone_call"
+                    android:backgroundTint="@color/abc_secondary_text_material_light" />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:text="Fixo\n\n (62) 3529-1399 "
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/button_telefone1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:text="LIGAR"
+                android:textStyle="bold"
+                android:textColor="@color/button_telefone"
+                android:gravity="center"
+                android:background="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="#ffffff">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="9dp"
+                android:background="@android:drawable/stat_sys_phone_call"
+                android:backgroundTint="@color/abc_secondary_text_material_light" />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:text="Celular (CLARO) \n\n(62) 99466-1228 "
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/button_telefone2"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:text="LIGAR"
+                android:textStyle="bold"
+                android:textColor="@color/button_telefone"
+                android:gravity="center"
+                android:background="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
