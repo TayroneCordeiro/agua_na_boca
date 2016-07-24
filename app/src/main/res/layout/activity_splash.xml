@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.tayronecordeiro.agua_na_boca.SplashActivity"
     android:gravity="center"
-    android:background="@drawable/fnd">
+    android:background="@drawable/fund">
 
     <ImageView
         android:layout_width="wrap_content"

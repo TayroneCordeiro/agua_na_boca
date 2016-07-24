@@ -7,9 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.tayronecordeiro.agua_na_boca.MainActivity">
+    tools:context=".CardapioActivity">
 
     <Button
+        android:id="@+id/button_sanduiches"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:background="@color/colorbutton"
@@ -19,6 +20,7 @@
         android:onClick="click_sanduiches"/>
 
     <Button
+        android:id="@+id/button_bebidas"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:layout_marginTop="70dp"
@@ -29,6 +31,7 @@
         android:onClick="click_bebidas"/>
 
     <Button
+        android:id="@+id/button_acrescentar"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:layout_marginTop="140dp"
@@ -36,7 +39,11 @@
         android:text="Opções para \nAcrescentar ou montar"
         android:textColor="#ffffff"
         android:textStyle="bold"
-        android:onClick="click_acrescentar"/>
+        android:onClick="click_acrescentar" />
+
+
+
+
 
 
 </RelativeLayout>

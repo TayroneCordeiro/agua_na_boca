@@ -23,7 +23,8 @@ public class AcrescentarActivity extends AppCompatActivity {
 
         switch (id) {
             case android.R.id.home:
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, CardapioActivity.class));
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

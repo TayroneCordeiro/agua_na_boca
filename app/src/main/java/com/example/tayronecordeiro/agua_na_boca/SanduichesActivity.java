@@ -1,10 +1,8 @@
 package com.example.tayronecordeiro.agua_na_boca;
 
 import android.content.Intent;
-import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -51,7 +49,8 @@ public class SanduichesActivity extends AppCompatActivity {
 
         switch (id) {
             case android.R.id.home:
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, CardapioActivity.class));
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

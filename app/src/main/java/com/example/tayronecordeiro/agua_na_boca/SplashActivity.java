@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
-import android.view.Menu;
 
 public class SplashActivity extends Activity implements  Runnable{
 
@@ -20,7 +19,7 @@ public class SplashActivity extends Activity implements  Runnable{
     }
 
     public void run (){
-        startActivity(new Intent(SplashActivity.this, MainActivity.class));
+        startActivity(new Intent(SplashActivity.this, InicioActivity.class));
         finish();
     }
 

@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#FFC107</color>
     <color name="colorbutton">#FFC107</color>
+
+    <color name="button_cardapio">#ffbd07</color>
+    <color name="button_facebook">#3688f4</color>
+    <color name="button_telefone">#39a327</color>
+    <color name="button_informaçoes">#ff5100</color>
 </resources>

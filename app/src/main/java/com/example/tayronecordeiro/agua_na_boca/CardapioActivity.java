@@ -4,15 +4,32 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
-public class FrangoActivity extends AppCompatActivity {
+public class CardapioActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frango);
+        setContentView(R.layout.activity_cardapio);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
+     public void click_sanduiches (View view) {
+        Intent  click_sanduiches = new Intent(CardapioActivity.this, SanduichesActivity.class);
+        startActivity(click_sanduiches);
+    }
+
+    public void click_bebidas (View view) {
+        Intent  click_bebidas = new Intent(CardapioActivity.this, BebidasActivity.class);
+        startActivity(click_bebidas);
+    }
+
+    public void click_acrescentar (View view) {
+        Intent  click_acrescentar = new Intent(CardapioActivity.this, AcrescentarActivity.class);
+        startActivity(click_acrescentar);
+    }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -23,11 +40,15 @@ public class FrangoActivity extends AppCompatActivity {
 
         switch (id) {
             case android.R.id.home:
-                startActivity(new Intent(this, SanduichesActivity.class));
+                startActivity(new Intent(this, InicioActivity.class));
+                finish();
                 finish();
                 return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+
+
 }

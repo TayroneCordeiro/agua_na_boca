@@ -23,6 +23,7 @@ public class PremiumActivity extends AppCompatActivity {
         switch (id) {
             case android.R.id.home:
                 startActivity(new Intent(this, SanduichesActivity.class));
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

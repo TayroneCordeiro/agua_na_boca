@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".CardapioActivity"
             android:label="@string/name_cardapio" />
         <activity
             android:name=".SanduichesActivity"
@@ -31,21 +31,22 @@
             android:label="@string/name_acrescentar" />
         <activity
             android:name=".HambuerguerActivity"
-            android:label="@string/name_hamburguer"/>
+            android:label="@string/name_hamburguer" />
         <activity
             android:name=".FrangoActivity"
-            android:label="@string/name_frango"/>
+            android:label="@string/name_frango" />
         <activity
             android:name=".LomboActivity"
-            android:label="@string/name_lommbo"/>
+            android:label="@string/name_lommbo" />
         <activity
             android:name=".PremiumActivity"
-            android:label="@string/name_premium"/>
+            android:label="@string/name_premium" />
         <activity
             android:name=".OutosActivity"
-            android:label="@string/name_outros">
-
-        </activity>
+            android:label="@string/name_outros"/>
+        <activity
+            android:name=".InicioActivity"
+            android:label="@string/name_inicio"/>
     </application>
 
 </manifest>
