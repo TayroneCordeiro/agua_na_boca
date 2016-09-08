@@ -60,9 +60,10 @@
             android:name=".InicioActivity"
             android:label="@string/name_inicio"
             android:theme="@style/inicio" />
+
         <activity
             android:name=".TelefoneActivity"
-            android:label="@string/name_telefones"
+            android:label="@string/name_outros"
             android:theme="@style/AppTheme"/>
     </application>
 
